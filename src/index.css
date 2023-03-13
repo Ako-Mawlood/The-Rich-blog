@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  font-family{
+  color: #333;
+  }  
+  .home{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 750px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  }
+  .navbar h1 {
+  color: #f1356d;
+  }
+  .navbar .links {
+  margin-left: auto;
+  }
+  .navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:#333;
+  font-size: 25PX;
+  }
+  .navbar a:hover {
+  color: #f1356d;
+  border-bottom:solid 4px #f1356d;
+  }
+  .content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  }
+  
+  /* blog previews / list */
+  .blog-preview {
+  padding: 10px 300px;
+  margin: 40px 0;
+  border-bottom: 3px solid #fafafa;
+
+  }
+  .blog-preview:hover {
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+
+  }
+  .blog-preview h2 {
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  }
+  
+  .blog-preview a{
+  text-decoration: none;
+  color:#333;
+
+  }
+  
+  /* blog details page */
+  .blog-details , .div{
+    width: 100vh;
+    transform: translate(50%,10%);
+ 
+  }
+  .blog-details h2 {
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 20px;
+  }
+  .blog-details div {
+  margin: 35px 0;
+
+  }
+  .blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  
+  /* create new blog form */
+  .create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .create label {
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  color:#333
+  }
+  .create h2 {
+  font-size: 30px;
+  color: #f1356d;
+  margin:30px 0px ;
+
+  }
+  .create input, .create textarea, .create select {
+  width: 100%;
+  color:#333;
+  letter-spacing: 0.5px;
+  padding: 10px 16px;
+  margin: 10px 0;
+  border: 2px solid  #ddd;
+  box-sizing: border-box;
+  display: block;
+  }
+  .create input,.create select{
+    font-size:22px
+  }
+  .create textarea{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .create input:focus, .create textarea:focus, .create select:focus{
+    outline:#f1356d solid 2px;
+    border-radius: 4px;
+
+  }
+  .create button {
+  background: #f1356d;
+  color: #fff;
+  font-size:20px;
+  border: 0;
+
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  }
+ 
+.not-found{
+  color:#f1356d;
+  font-size:40px
+
+}
+.button{
+  background: #f1356d;
+  color: #fff;
+  font-size:20px;
+  border: 0;
+
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.div{
+  margin-top: 50px;
+}
