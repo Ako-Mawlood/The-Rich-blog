@@ -11,6 +11,12 @@
       "body": "This  is my first react.js project, there is bunch of things i did in this project i want you to check out.\n1:i created a not fount commponent when the user type a wrong url (test this)\n2:i used clean up function\n3:click the blogs to see the blogs detail\n4:and also you can create blogs and delete blogs .\nhappey to see you here brother",
       "author": "Ako",
       "id": 3
+    },
+    {
+      "title": "comming to my party tonight",
+      "body": "i will be happey come to my party to knight",
+      "author": "Abdlbarry",
+      "id": 4
     }
   ]
 }

@@ -5,7 +5,7 @@ const NotFound = () => {
     <div className='div'>
         <h1>Sorry...</h1>
         <h2 className="not-found">
-           This page can be Not found
+           This page can Not be found
         </h2>
         <Link to="/"><button className='button'>Back</button></Link>
     </div>
